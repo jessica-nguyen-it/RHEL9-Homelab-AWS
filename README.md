@@ -20,12 +20,13 @@ Just me, a RHEL 9 instance, and a bunch of terminal tabs. This homelab is where 
 - **Week 1** – Identity & Access Management → [Read it](./lab-log/week1.md)  
 - **Week 2** – SELinux & Firewall Tuning → [Read it](./lab-log/week2.md)  
 - **Week 3** – Package Lifecycle & Recovery → [Read it](./lab-log/week3.md)
-- **The end**... LOL just kidding! This terminal’s not closing anytime soon—more logs on the way 😼
+- **THE END**... LOL just kidding! This terminal’s not closing anytime soon—more logs on the way 😼
 
 ---
 
-Hi! Since you’re down here, enjoy this photo of some cute penguins to lift you up 🐧
+but hey, since you’re down here, enjoy this photo of some cute penguins! 🐧
 
-![Screenshot](assets/screenshots/birds-1756510438349-3248.jpg)
+<img src="assets/screenshots/birds-1756510438349-3248.jpg" width="800"/>
+
 
 
