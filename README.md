@@ -23,7 +23,7 @@ Just me, a RHEL 9 instance, and a bunch of terminal tabs. This homelab is where 
 
 ---
 
-... Hi! Since you’re down here, enjoy this photo of some cute penguins 🐧
+Hi! Since you’re down here, enjoy this photo of some cute penguins to lift you up 🐧
 
 ![Screenshot](assets/screenshots/birds-1756510438349-3248.jpg)
 
