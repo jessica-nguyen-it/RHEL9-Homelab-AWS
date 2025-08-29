@@ -20,6 +20,7 @@ Just me, a RHEL 9 instance, and a bunch of terminal tabs. This homelab is where 
 - **Week 1** – Identity & Access Management → [Read it](./lab-log/week1.md)  
 - **Week 2** – SELinux & Firewall Tuning → [Read it](./lab-log/week2.md)  
 - **Week 3** – Package Lifecycle & Recovery → [Read it](./lab-log/week3.md)
+- **Week 4** – More incoming... just wait 😼
 
 ---
 
