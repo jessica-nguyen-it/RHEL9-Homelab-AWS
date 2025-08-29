@@ -11,7 +11,7 @@ Just me, a RHEL 9 instance, and a bunch of terminal tabs. This homelab is where 
 - **Instance Type**: t3.micro  
 - **vCPU**: 2 vCPUs 
 - **Memory**: 1 GiB RAM  
-- **Storage**: 20 GiB root volume with two 5 GiB additional EBS volumes for LVM practice
+- **Storage**: 20 GiB root volume with two 5 GiB additional EBS volumes
 - **Operating System**: Red Hat Enterprise Linux 9  
 
 
@@ -21,5 +21,10 @@ Just me, a RHEL 9 instance, and a bunch of terminal tabs. This homelab is where 
 - **Week 2** – SELinux & Firewall Tuning → [Read it](./lab-log/week2.md)  
 - **Week 3** – Package Lifecycle & Recovery → [Read it](./lab-log/week3.md)
 
+---
+
+... Hi! Since you’re down here, enjoy this photo of some cute penguins 🐧
+
+![Screenshot](assets/screenshots/birds-1756510438349-3248.jpg)
 
 
