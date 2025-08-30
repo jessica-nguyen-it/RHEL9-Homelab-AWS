@@ -10,7 +10,7 @@ I kicked things off by creating an SSH key pair (`rhcsa-key.pem`) and launching 
 
 For storage, I gave it:
 - a 20 GiB root volume
-- and two 5 GiB EBS volumes for LVM practice (which, to be honest, I don’t fully understand yet, but I’m getting there)
+- and two 5 GiB EBS volumes for LVM practice *(which, to be honest, I don’t fully understand yet, but I’m getting there)*
 
 I also set up a security group to allow SSH from my IP and made sure the instance had a public IP for remote access.
 
