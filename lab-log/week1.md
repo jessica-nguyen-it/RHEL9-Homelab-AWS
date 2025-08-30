@@ -31,7 +31,7 @@ icacls rhcsa-key.pem /grant:r "$($env:USERNAME):R"
 icacls rhcsa-key.pem /remove "Users" "Administrators" "Everyone"
 ```
 
-I'm not a PowerShell pro, but I learned that these commands essentially:
+These commands essentially:
 - Remove inherited permissions  
 - Grant read-only access to my user  
 - and Remove access for other groups  
