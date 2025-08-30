@@ -40,7 +40,7 @@ Once that was done, I could connect. And just like that, my homelab was alive!
 
 ## 🚂 First Hiccup: Installing `sl`
 
-To celebrate, I tried installing my favorite novelty app: the infamous steam locomotive animation (`sl`). But of course, I immediately hit a wall:
+To celebrate, I tried installing my favorite app: the infamous steam locomotive animation (`sl`). But of course, I immediately hit a wall:
 
 ```
 Error: Unable to find a match: sl
@@ -59,9 +59,9 @@ Using my super awesome SRE skillz, I ran:
 journalctl -xe | grep -i kill
 ```
 
-Sure enough, the logs showed that the OOM killer had terminated the `dnf` process during install. This is a `t3.micro` instance with just 1 GiB of RAM, so I guess that makes sense. That ruled out repo issues or broken packages—it was just my tiny instance running out of steam. 
+Sure enough, the logs showed that the OOM killer had terminated the `dnf` process during install. That ruled out repo issues or broken packages—it was just my tiny instance running out of steam. This is a `t3.micro` instance with just 1 GiB of RAM, so I guess that makes sense. 
 
-So my options were either to change my instance type (which would require my broke self to pay AWS money), or stay within the free tier and practice one of the RHCSA exam objectives I happened to vaguely remember reading about: configuring swap space.
+So now, my options were either to change my instance type (which would require my broke self to pay AWS money), or stay within the free tier and practice one of the RHCSA exam objectives I happened to vaguely remember reading about: configuring swap space.
 
 You’ll never guess which one I chose 😏
 
