@@ -17,7 +17,7 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
 
 ## 📚 Now for the fun part: the series breakdown!
 
-- **Week 1** – Homelab Setup & First Fixes → [Read it](./lab-log/week1.md)  
+- **Week 1** – Spinning Up the Lab → [Read it](./lab-log/week1.md)  
 - **Week 2** – Identity & Access Management → [Read it](./lab-log/week2.md)  
 - **Week 3** – SELinux & Firewall Tuning → [Read it](./lab-log/week3.md)
 - **THE END**... haha just kidding! This terminal’s not closing anytime soon—more logs on the way 😼
