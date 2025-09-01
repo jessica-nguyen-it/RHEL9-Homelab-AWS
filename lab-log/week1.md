@@ -1,12 +1,12 @@
 # Week 1 – Spinning Up the Homelab
 
-This week was all about laying the groundwork: launching the instance, setting up SSH, and installing core tools. I also (unexpectedly) found myself having to troubleshoot an issue, barely out of the box!
+This week I decided I would dedicate to laying the groundwork: launching the instance, setting up SSH, and installing core tools. I also (unexpectedly) found myself having to troubleshoot an issue, barely out of the box.
 
 It’s okay though, this is exactly the kind of hands-on learning I signed up for, so we’re already off to a great start (●'◡'●)
 
 ## ☁️ Launching the Instance
 
-I kicked things off by creating an SSH key pair (`rhcsa-key.pem`) and launching a `t3.micro` instance using the [RHEL 9 AMI](https://aws.amazon.com/marketplace/pp/prodview-b5psjqk4f5f3k) from AWS Marketplace.
+I started things off by creating an SSH key pair (`rhcsa-key.pem`) and launching a `t3.micro` instance using the [RHEL 9 AMI](https://aws.amazon.com/marketplace/pp/prodview-b5psjqk4f5f3k) from AWS Marketplace.
 
 For storage, I gave it:
 - a 20 GiB root volume
