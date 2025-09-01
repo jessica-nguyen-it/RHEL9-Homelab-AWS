@@ -1,6 +1,6 @@
 # RHEL 9 Homelab on AWS EC2 🐧🧠 
 
-This homelab is where I test, break, fix, and learn everything I need for the RHCSA (and real sysadmin duties). I’m documenting my progress as a multi-part series, with each entry focused on a specific exam domain. Expect screenshots, config snippets, and honest reflections from my studies. I’ll be updating regularly as I work through new topics, break things (on purpose or not), and learn from the process. 
+This homelab is where I test, break, fix, and learn everything I need for the RHCSA. I’m documenting my progress as a multi-part series, with each entry focused on a specific exam domain. I’ll be updating regularly as I work through new topics, break things (on purpose or not), and learn from the process. Expect screenshots, config snippets, and honest reflections! 
 
 #### Now... with all that context out of the way, let’s get to what you're actually here for 😹
 
