@@ -19,8 +19,8 @@ To keep things light (and leave room for the more fun stuff), here’s a quick l
 - Redirecting input/output  
 - File transfers: SCP and SFTP  
 
-## New Territory: Tools I Hadn’t Used Before  
-While most of this was a refresher, I came across a few topics I hadn’t worked with before:
+## New Territory: Tools I Hadn’t Used Before 😵‍💫 
+While most of this was a refresher, I came across a few topics I hadn’t worked with yet:
 
 - SUID, SGID, and Sticky Bit permissions  
 - File-level backup and sync with `rsync`  
