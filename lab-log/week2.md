@@ -2,9 +2,9 @@
 
 I decided to set aside this week to reinforce my understanding of key tools and foundational topics. Even though it took a while to go through, I’m glad I went back to the basics. A lot of these tools were things I’d learned but never really applied, so they didn’t stick. 
 
-Thinking back to my SRE internship, I realize how much time I could’ve saved if I’d used the built-in documentation tools instead of constantly switching tabs to look through the company’s knowledge base. I also could’ve spared my eyes by using the `diff` command to compare healthy and unhealthy configuration files—among many other little things. 
+Thinking back to my time as an SRE, I remember so many instances where leveraging some of these concepts would’ve made troubleshooting so much easier. 
 
-Well... now I know 😅
+Well... at least I know now! 😅
 
 <img src="https://github.com/jessica-nguyen-it/RHEL9-Homelab-AWS/blob/main/assets/miscellaneous/Funny-businessman-swimming-underwater.jpg?raw=true" alt="Funny businessman underwater" width="500"/>
 
@@ -28,7 +28,7 @@ These extra permission bits affect file execution and directory behavior. I prac
 
 - **SUID (4):** Lets a file run with the owner's privileges. Great for controlled elevation (terrible if misconfigured).
 - **SGID (2):** Same idea, but for group privileges. On directories, it ensures new files inherit the group.
-- **Sticky Bit (1):** On shared directories, it prevents users from deleting each other’s files. Think `/tmp`, but with boundaries.
+- **Sticky Bit (1):** On shared directories, it prevents users from deleting each other’s files. 
 
 ### File-level backup and sync with `rsync`
 
