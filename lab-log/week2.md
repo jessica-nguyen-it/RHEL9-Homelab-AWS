@@ -8,7 +8,7 @@ Well... now I know 😅
 
 <img src="https://github.com/jessica-nguyen-it/RHEL9-Homelab-AWS/blob/main/assets/miscellaneous/Funny-businessman-swimming-underwater.jpg?raw=true" alt="Funny businessman underwater" width="500"/>
 
-To keep things light (and leave room for the more fun stuff), here’s a quick list of what I reviewed:
+#### Anyways, to keep things light (and leave room for the more fun stuff), here’s a quick list of what I reviewed:
 
 - Linux security and access control fundamentals: account types, ACLs, privilege escalation, user management, and file ownership/permissions  
 - System documentation tools: `--help`, man pages, `apropos`, `mandb`, `info`, and `/usr/share/doc`  
@@ -19,20 +19,23 @@ To keep things light (and leave room for the more fun stuff), here’s a quick l
 - Redirecting input/output  
 - File transfers: SCP and SFTP  
 
-## New Territory: Tools I Hadn’t Used Before 😵‍💫 
-While most of this was a refresher, I came across a few topics I hadn’t worked with yet:
+## New Territory: Tools I Hadn’t Used Before 😲
+While most of this was a refresher, I came across a few topics I hadn’t worked with yet. So, I decided to dig a little deeper into what each one does, how it works, and where it might come in handy. Here’s what I found:
 
-- SUID, SGID, and Sticky Bit permissions  
-- File-level backup and sync with `rsync`  
-- Full disk imaging with `dd`  
+### SUID, SGID, and Sticky Bit permissions  
 
-So, I decided to dig a little deeper into what each one does, how it works, and where it might come in handy. Here’s what I found:
+These special permission bits affect file execution and directory behavior—especially in multi-user environments. I practiced setting and removing them, and saw how they can streamline access or introduce risks if misconfigured. Basically:
 
-### SUID, SGID, and Sticky Bit  
-This was one of those topics I’d heard mentioned but never really explored. I learned how these special permission bits affect file execution and directory behavior—especially in multi-user environments. I practiced setting and removing them, and saw how they can streamline access or introduce risks if misconfigured.
+- **SUID (4):** Lets a file run with the owner's privileges. Great for controlled elevation (terrible if misconfigured).
+- **SGID (2):** Same idea, but for group privileges. On directories, it ensures new files inherit the group.
+- **Sticky Bit (1):** On shared directories, it prevents users from deleting each other’s files. Think `/tmp`, but with boundaries.
 
-### rsync  
-I’d seen `rsync` used in scripts before, but hadn’t tried it myself until now. Once I got hands-on, I understood why it’s a go-to for file-level backups and sync. I tested syncing directories, preserving permissions, compressing data during transfer, and excluding files. It’s fast, flexible, and surprisingly intuitive.
+### File-level backup and sync with `rsync`
 
-### dd  
-`dd` felt intimidating at first, but once I broke it down, it started to make sense. I used it to create and restore disk images, and learned how powerful it can be for cloning drives or recovering from system failures. Definitely a tool I’ll keep in my back pocket for more advanced backup workflows.
+- This section is in progress! 🚧 
+<!-- I’d seen `rsync` used in scripts before, but hadn’t tried it myself until now. Once I got hands-on, I understood why it’s a go-to for file-level backups and sync. I tested syncing directories, preserving permissions, compressing data during transfer, and excluding files. It’s fast, flexible, and surprisingly intuitive. -->
+
+### Full disk imaging with `dd`  
+
+- This section is also in progress! 🚧 
+<!-- `dd` felt intimidating at first, but once I broke it down, it started to make sense. I used it to create and restore disk images, and learned how powerful it can be for cloning drives or recovering from system failures. Definitely a tool I’ll keep in my back pocket for more advanced backup workflows. -->
