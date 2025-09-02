@@ -24,7 +24,7 @@ While most of this was a refresher, I came across a few topics I hadn’t worked
 
 ### SUID, SGID, and Sticky Bit permissions  
 
-These special permission bits affect file execution and directory behavior—especially in multi-user environments. I practiced setting and removing them, and saw how they can streamline access or introduce risks if misconfigured. Basically:
+These extra permission bits affect file execution and directory behavior. I practiced setting and removing them, and saw how they can streamline access or introduce risks if misconfigured. Basically:
 
 - **SUID (4):** Lets a file run with the owner's privileges. Great for controlled elevation (terrible if misconfigured).
 - **SGID (2):** Same idea, but for group privileges. On directories, it ensures new files inherit the group.
