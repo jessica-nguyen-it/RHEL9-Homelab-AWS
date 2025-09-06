@@ -1,6 +1,6 @@
 # Bonus Log: I Forgot to Format My EBS Volumes 🐧
 
-Remembering I had configured two extra EBS volumes, I set out to practice disk backup and restoration using the dd command. That’s when I remembered I had never formatted the volumes I attached to my EC2 instance. So, here’s a quick walkthrough of how I fixed that!
+Remembering I had configured two extra EBS volumes, I set out to practice disk backup and restoration using the `dd` command. That’s when I remembered I had never formatted the volumes I attached to my EC2 instance. So, here’s a quick walkthrough of how I fixed that!
 
 ## 🔍 Spotting the Problem
 
