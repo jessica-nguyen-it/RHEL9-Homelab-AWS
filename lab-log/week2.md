@@ -32,10 +32,30 @@ These extra permission bits affect file execution and directory behavior. I prac
 
 ### File-level backup and sync with `rsync`
 
-- This section is in progress! 🚧 
-<!-- I’d seen `rsync` used in scripts before, but hadn’t tried it myself until now. Once I got hands-on, I understood why it’s a go-to for file-level backups and sync. I tested syncing directories, preserving permissions, compressing data during transfer, and excluding files. It’s fast, flexible, and surprisingly intuitive. -->
+Remote synchronization lets you copy files between systems efficiently. I practiced using rsync to mirror directories, both locally and remotely. It’s fast, preserves metadata, and works over SSH. 
+
+These are common ways to use `rsync` for file synchronization:
+
+- Pushing your local directory to a remote system:  
+  `rsync -a /local/dir username@ip:/remote/dir`
+- Pulling a remote directory to your local machine:  
+  `rsync -a username@ip:/remote/dir /local/dir`
+- Syncing two directories on the same system:  
+  `rsync -a Pictures/ /Backups/Pictures/`
 
 ### Full disk imaging with `dd`  
 
-- This section is also in progress! 🚧 
-<!-- `dd` felt intimidating at first, but once I broke it down, it started to make sense. I used it to create and restore disk images, and learned how powerful it can be for cloning drives or recovering from system failures. Definitely a tool I’ll keep in my back pocket for more advanced backup workflows. -->
+`dd` takes an exact bit-by-bit copy of a disk or partition—this is why it's known as imaging. It’s useful for backups, cloning, and restoration.
+
+To create a disk image, use the command: `sudo dd if=/dev/vda of=diskimage.raw bs=1M status=progress`. This copies the contents of `/dev/vda` into a raw image file.
+
+- **if=** input file (source device)  
+- **of=** output file (destination image)  
+- **bs=** block size (1M is a common default)  
+- **status=progress** shows real-time progress
+
+To restore from a disk image, simply reverse the input and output of the previous command: `sudo dd if=diskimage.raw of=/dev/vda bs=1M status=progress`. This writes the image back to the disk!
+
+
+<!--- This section is in progress! 🚧 --->
+
