@@ -19,7 +19,7 @@ efivarfs        128K  4.4K  119K   4% /sys/firmware/efi/efivars
 tmpfs            72M     0   72M   0% /run/user/1000
 ```
 
-Then I ran lsblk to confirm the volumes were there but unmounted:
+Then I ran `lsblk` to confirm the volumes were there but unmounted:
 
 ```bash
 [ec2-user@ip-xxx-xxx-xxx-xxx ~]$ lsblk
@@ -33,7 +33,7 @@ nvme1n1     259:5    0    5G  0 disk
 nvme2n1     259:6    0    5G  0 disk
 ```
 
-Finally to triple-check, I used file -s and confirmed they were raw:
+Finally to triple-check, I used `file -s` and confirmed they were raw:
 
 ```bash
 [ec2-user@ip-xxx-xxx-xxx-xxx ~]$ sudo file -s /dev/nvme1n1
@@ -42,7 +42,7 @@ Finally to triple-check, I used file -s and confirmed they were raw:
 
 ## 🛠️ Step-by-Step Fix
 
-The evidence speaks for itself, before I could begin working with `dd` and `rsync` for disk backup and restoration, I needed to ensure the EBS volumes were properly set up. That meant formatting them, creating mount points, and verifying they were ready to store data. Without that foundation, there’s nowhere for the backup or sync operations to go. 
+Before I could begin working with `dd` and `rsync` for disk backup and restoration, I needed to ensure the EBS volumes were properly set up. That meant formatting them, creating mount points, and verifying they were ready to store data. Without that foundation, there’s nowhere for the backup or sync operations to go. 
 
 Here’s how I did that!
 
