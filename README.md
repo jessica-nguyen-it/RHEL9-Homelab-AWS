@@ -17,6 +17,8 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
 
 ## 📚 Now for the fun part: the series breakdown!
 
+`NOTE: I upload logs in batches, so if it looks quiet… just know updates are always brewing behind the scenes!`
+
 - **Week 1** – Spinning Up the HomeLab → [Read it](./lab-log/week1.md)  
 - **Week 2** – Revisiting the Fundamentals → [Read it](./lab-log/week2.md)
   - BONUS EPISODE: Actually setting up my EBS Volumes → [Read it](./lab-log/week2bonus.md)
@@ -24,6 +26,7 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
 - **Week 4** – Identity & Access Management → [Read it](./lab-log/week4.md)
 - **Week 5** – SELinux & Firewall Tuning → [Read it](./lab-log/week5.md)
 - **THE END**... haha just kidding! This terminal’s not closing anytime soon—more logs on the way 😼
+
 
 ---
 
