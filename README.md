@@ -7,12 +7,17 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
 
 ## 🛠️ First things first: the environment
 
-- **Platform**: AWS EC2  
-- **Instance Type**: t3.micro  
-- **vCPU**: 2 vCPUs 
-- **Memory**: 1 GiB RAM  
-- **Storage**: 20 GiB root volume with two 5 GiB additional EBS volumes
-- **Operating System**: Red Hat Enterprise Linux 9  
+#### Cloud Platform: AWS EC2
+- **Instance Type:** t3.micro  
+- **vCPU:** 2 vCPUs  
+- **Memory:** 1 GiB RAM  
+- **Storage:** 20 GiB root volume + two 5 GiB EBS volumes  
+- **Operating System:** Red Hat Enterprise Linux 9  
+
+#### Local Platform: VMware Workstation (3 VMs)
+- **VM Specs:** 2 vCPUs, 2 GiB RAM each  
+- **Storage:** 25 GiB virtual disk per VM  
+- **Operating System:** Red Hat Enterprise Linux 9 (for consistency with cloud setup)
 
 
 ## 📚 Now for the fun part: the series breakdown!
