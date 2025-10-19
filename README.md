@@ -29,8 +29,10 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
   - BONUS EPISODE: Actually setting up my EBS Volumes → [Read it](./lab-log/week2bonus.md)
 - **Week 3** – Automating System Maintenance Tasks → [Read it](./lab-log/week3.md)
   - Check out my bash script at the end of the log!
-- **Week 4** – Identity & Access Management → [Read it](./lab-log/week4.md)
-- **Week 5** – SELinux & Firewall Tuning → [Read it](./lab-log/week5.md)
+- **Week 4** – System Lifecycle Operations → [Read it](./lab-log/week4.md)
+  - Covers Boot Sequences, Deployment & Recovery, Performance Tuning, Log Analysis, and Process Diagnostics
+- **Week 5** – Identity & Access Management → [Read it](./lab-log/week4.md)
+- **Week 6** – SELinux & Firewall Tuning → [Read it](./lab-log/week5.md)
 - **THE END**... haha just kidding! This terminal’s not closing anytime soon—more logs on the way 😼
 
 
