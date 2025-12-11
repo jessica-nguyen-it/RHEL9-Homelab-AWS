@@ -5,7 +5,7 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
 #### Now... with all that context out of the way, let’s get to what you're actually here for!
 
 
-## 🛠️ First things first: the environment
+## First: the environment
 
 #### Cloud Platform: AWS EC2
 - **Instance Type:** t3.micro  
@@ -20,9 +20,9 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
 - **Operating System:** Red Hat Enterprise Linux 9 (for consistency with cloud setup)
 
 
-## 📚 Now for the fun part: the series breakdown!
+## Now for the fun part:
 
-`NOTE: I upload logs in batches, so if it looks quiet… just know updates are always brewing behind the scenes!`
+`NOTE: I upload logs in batches, so if it looks quiet, just know updates are always brewing behind the scenes!`
 
 - **Week 1** – Spinning Up the HomeLab → [Read it](./lab-log/week1.md)  
 - **Week 2** – Revisiting the Fundamentals → [Read it](./lab-log/week2.md)
@@ -31,12 +31,12 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
 - **Week 4** – System Lifecycle Operations → [Read it](./lab-log/week4.md)
 - **Week 5** – Identity & Access Management → [Read it](./lab-log/week4.md)
 - **Week 6** – SELinux & Firewall Tuning → [Read it](./lab-log/week5.md)
-- **THE END**... haha just kidding! This terminal’s not closing anytime soon—more logs on the way 😼
+- **THE END**... just kidding, more logs on the way 😼
 
 
 ---
 
-but hey, since you’re down here, enjoy this photo of some cute penguins! 🐧
+Since you’re down here, have some cute penguins 🐧
 
 <img src="assets/screenshots/birds-1756510438349-3248.jpg" width="800"/>
 
