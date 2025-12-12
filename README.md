@@ -26,7 +26,7 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
 
 - **Week 1** – Spinning Up the HomeLab → [Read it](./lab-log/week1.md)  
 - **Week 2** – Revisiting the Fundamentals → [Read it](./lab-log/week2.md)
-  - BONUS EPISODE: Actually setting up my EBS Volumes → [Read it](./lab-log/week2bonus.md)
+  - Bonus because I made a mistake: Actually setting up my EBS Volumes → [Read it](./lab-log/week2bonus.md)
 - **Week 3** – Automating System Maintenance Tasks → [Read it](./lab-log/week3.md)
 - **Week 4** – Bootloader Installation, Configuration, and Troubleshooting → [Read it](./lab-log/week4.md)
 - **Week 5** – Identity & Access Management → [Read it](./lab-log/week4.md)
