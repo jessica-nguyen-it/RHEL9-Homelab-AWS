@@ -5,7 +5,7 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
 #### Now... with all that context out of the way, let’s get to what you're actually here for!
 
 
-## First: the environment
+## First: the environments i'll be practicing on
 
 #### Cloud Platform: AWS EC2
 - **Instance Type:** t3.micro  
