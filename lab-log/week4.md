@@ -1,4 +1,4 @@
-# Week 4 – Linux Boot, Shutdown, and Troubleshooting
+# Week 4 – Install, configure and troubleshoot bootloaders
 
 This week I focused on deepening my understanding of the Linux boot workflow, covering safe shutdown and reboot procedures, techniques for interrupting the boot sequence to perform critical recovery tasks such as resetting the root password, and methods for repairing and reconfiguring the GRUB bootloader.
 
