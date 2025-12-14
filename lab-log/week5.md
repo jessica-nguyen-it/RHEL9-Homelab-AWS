@@ -1,6 +1,8 @@
 # Week 5 - Processes, Logs, and TuneD
 
-This week I dug into process management, log analysis, and TuneD. Process management and log analysis are big ones that I used extensively during my time as an SRE intern. TuneD, on the other hand, is completely new to me—a refreshing slice of learning. These notes will be in cheat‑sheet style to keep things concise.
+This week I dug into process management, log analysis, and TuneD. Process management and log analysis are big ones that I used extensively during my time as an SRE intern. TuneD, on the other hand, is completely new to me (yay!) 
+
+NOTE: Starting this week these notes will be in cheat‑sheet style to keep things concise.
 
 ## Process Management
 
