@@ -28,7 +28,7 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
   - Bonus -- Understanding Persistance → [Read it](./lab-log/week2bonus.md)
 - **Week 3** – Automating System Maintenance Tasks → [Read it](./lab-log/week3.md)
 - **Week 4** – Bootloader Installation, Configuration, and Troubleshooting → [Read it](./lab-log/week4.md)
-- **Week 5** – Processes, logs, and TuneD → [Read it](./lab-log/week5.md)
+- **Week 5** – Processes, Logs, and TuneD → [Read it](./lab-log/week5.md)
 - **Week 6** – Identity & Access Management → [Read it](./lab-log/week4.md)
 - **Week 7** – SELinux & Firewall Tuning → [Read it](./lab-log/week5.md)
 - **THE END**... just kidding, more logs on the way 😼
