@@ -2,13 +2,13 @@
 
 This homelab is where I test, break, fix, and learn everything I need for the RHCSA. I’m documenting my progress as a multi-part series, with each entry focused on a specific exam domain. I’ll be updating regularly as I work through new topics, break things (on purpose or not), and learn from the process. 
 
-Now with all that context out of the way, let’s get to what you're actually here for!
+```Now with all that context out of the way, let’s get to what you're actually here for!```
 
-
-## First: The Practice Environment(s)
+## First: the practice environment(s)
 
 I initially focused my practice on an AWS EC2 instance, but over time I expanded the project to address different needs. I incorporated VMware to cost‑effectively replicate the RHCSA test environment and leveraged my ThinkPad for casual, daily practice. Altogether, this setup really helped me grow more confident working across cloud, virtualized, and local platforms.
 
+```
 1. AWS EC2 (Cloud, 1 VM)
    - for experince over the cloud
    - t3.micro, 2 vCPUs, 1 GiB RAM, 20 GiB root + 2×5 GiB EBS, RHEL 9
@@ -20,7 +20,7 @@ I initially focused my practice on an AWS EC2 instance, but over time I expanded
 3. My personal computer
    - a ThinkPad P15s, running Fedora 43 (upstream to RHEL)
    - Special kudos here, I made tons of progress treating my machine like a practice server!
-
+```
 
 ## Now for the fun part!
 
@@ -31,17 +31,18 @@ I initially focused my practice on an AWS EC2 instance, but over time I expanded
 - **Week 3** – Automating System Maintenance Tasks → [Read it](./lab-log/week3.md)
 - **Week 4** – Troubleshooting the Bootloader → [Read it](./lab-log/week4.md)
 - **Week 5** – Processes, Logs, and TuneD → [Read it](./lab-log/week5.md)
-- **Week 6** - Local Storage and Filesystem Management - [Read it](./lab-log/week6.md)
-- **Week 7** – Identity & Access Management → [Read it](./lab-log/week4.md)
-- **Week 8** – SELinux & Firewall Tuning → [Read it](./lab-log/week5.md)
+- **Week 6** - Configuring Local Storage → [Read it](./lab-log/week6.md)
+- **Week 7** - Creating Filesystems → [Read it](./lab-log/week7.md)
+- **Week 8** – Identity & Access Management → [Read it](./lab-log/week8.md)
+- **Week 8** – SELinux & Firewall Tuning → [Read it](./lab-log/week9.md)
 - **THE END**... just kidding, more logs on the way 😼
 
 
 ---
 
-Since you’re down here, have some cute penguins 🐧
-
-<img src="assets/screenshots/birds-1756510438349-3248.jpg" width="800"/>
+> Since you’re down here, have some cute penguins 🐧
+> 
+> <img src="assets/screenshots/birds-1756510438349-3248.jpg" width="800"/>
 
 
 
