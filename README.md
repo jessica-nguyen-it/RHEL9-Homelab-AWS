@@ -2,10 +2,12 @@
 
 This homelab is where I test, break, fix, and learn everything I need for the RHCSA. I’m documenting my progress as a multi-part series, with each entry focused on a specific exam domain. I’ll be updating regularly as I work through new topics, break things (on purpose or not), and learn from the process. 
 
-#### Now... with all that context out of the way, let’s get to what you're actually here for!
+Now with all that context out of the way, let’s get to what you're actually here for!
 
 
-## First: the environments i'll be practicing in
+## First: The Practice Environment(s)
+
+I initially focused my practice on an AWS EC2 instance, but over time I expanded the project to address different needs. I incorporated VMware to cost‑effectively replicate the RHCSA test environment and leveraged my ThinkPad for casual, daily practice. Altogether, this setup really helped me grow more confident working across cloud, virtualized, and local platforms.
 
 1. AWS EC2 (Cloud, 1 VM)
    - for experince over the cloud
@@ -20,17 +22,18 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
    - Special kudos here, I made tons of progress treating my machine like a practice server!
 
 
-## Now for the fun part:
+## Now for the fun part!
 
 
 - **Week 1** – Spinning Up the HomeLab → [Read it](./lab-log/week1.md)  
 - **Week 2** – Revisiting the Fundamentals → [Read it](./lab-log/week2.md)
-  - Bonus -- Understanding Persistance → [Read it](./lab-log/week2bonus.md)
+  - Bonus — Understanding Persistance → [Read it](./lab-log/week2bonus.md)
 - **Week 3** – Automating System Maintenance Tasks → [Read it](./lab-log/week3.md)
-- **Week 4** – Bootloader Installation, Configuration, and Troubleshooting → [Read it](./lab-log/week4.md)
+- **Week 4** – Troubleshooting the Bootloader → [Read it](./lab-log/week4.md)
 - **Week 5** – Processes, Logs, and TuneD → [Read it](./lab-log/week5.md)
-- **Week 6** – Identity & Access Management → [Read it](./lab-log/week4.md)
-- **Week 7** – SELinux & Firewall Tuning → [Read it](./lab-log/week5.md)
+- **Week 6** - Local Storage and Filesystem Management - [Read it](./lab-log/week6.md)
+- **Week 7** – Identity & Access Management → [Read it](./lab-log/week4.md)
+- **Week 8** – SELinux & Firewall Tuning → [Read it](./lab-log/week5.md)
 - **THE END**... just kidding, more logs on the way 😼
 
 
