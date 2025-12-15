@@ -5,24 +5,23 @@ This homelab is where I test, break, fix, and learn everything I need for the RH
 #### Now... with all that context out of the way, let’s get to what you're actually here for!
 
 
-## First: the environments i'll be practicing on
+## First: the environments i'll be practicing in
 
-#### Cloud Platform: AWS EC2
-- **Instance Type:** t3.micro  
-- **vCPU:** 2 vCPUs  
-- **Memory:** 1 GiB RAM  
-- **Storage:** 20 GiB root volume + two 5 GiB EBS volumes  
-- **Operating System:** Red Hat Enterprise Linux 9  
-
-#### Local Platform: VMware Workstation (3 VMs)
-- **VM Specs:** 2 vCPUs, 2 GiB RAM each  
-- **Storage:** 25 GiB virtual disk per VM  
-- **Operating System:** Red Hat Enterprise Linux 9 (for consistency with cloud setup)
+1. AWS EC2 (Cloud, 1 VM)
+   - for experince over the cloud
+   - t3.micro, 2 vCPUs, 1 GiB RAM, 20 GiB root + 2×5 GiB EBS, RHEL 9
+  
+2. VMware Workstation (Local, 3 VMs)
+   - a local solution that mimics the RHCSA test enviroment
+   - 2 vCPUs, 2 GiB RAM each, 25 GiB disk each, RHEL 9
+  
+3. My personal computer
+   - a ThinkPad P15s, running Fedora 43 (upstream to RHEL)
+   - Special kudos here, I made tons of progress treating my machine like a practice server!
 
 
 ## Now for the fun part:
 
-`NOTE: I upload logs in batches, so if it looks quiet, just know updates are always brewing behind the scenes!`
 
 - **Week 1** – Spinning Up the HomeLab → [Read it](./lab-log/week1.md)  
 - **Week 2** – Revisiting the Fundamentals → [Read it](./lab-log/week2.md)
