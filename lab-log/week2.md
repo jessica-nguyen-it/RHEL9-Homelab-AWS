@@ -1,14 +1,10 @@
 # Week 2: Revisiting the Fundamentals and Exploring New Tools
 
-I decided to set aside this week to reinforce my understanding of key tools and foundational topics. Even though it took a while to go through, I’m glad I went back to the basics. A lot of these tools were things I’d learned but never really applied, so they didn’t stick. 
-
-Thinking back to my time as an SRE, I remember so many instances where leveraging some of these concepts would’ve made troubleshooting so much easier. 
-
-Well... at least I know now! 😅
+I decided to set aside this week to reinforce my understanding of key tools and foundational topics before moving on. Even though it took a while to go through, I’m glad I went back to the basics. A lot of these tools were things I’d learned but never really applied, so they didn’t stick!
 
 <img src="https://github.com/jessica-nguyen-it/RHEL9-Homelab-AWS/blob/main/assets/miscellaneous/Funny-businessman-swimming-underwater.jpg?raw=true" alt="Funny businessman underwater" width="500"/>
 
-#### Anyways, to keep things light (and leave room for the more fun stuff), here’s a quick list of what I reviewed:
+#### To keep things light (and leave room for the more fun stuff), here’s a quick list of what I reviewed:
 
 - Linux security and access control fundamentals: account types, ACLs, privilege escalation, user management, and file ownership/permissions  
 - System documentation tools: `--help`, man pages, `apropos`, `mandb`, `info`, and `/usr/share/doc`  
@@ -19,7 +15,7 @@ Well... at least I know now! 😅
 - Redirecting input/output  
 - File transfers: SCP and SFTP  
 
-## New Territory: Tools I Hadn’t Used Before 😲
+## New stuff! 😲
 While most of this was a refresher, I came across a few topics I hadn’t worked with yet. So, I decided to dig a little deeper into what each one does, how it works, and where it might come in handy. Here’s what I found:
 
 ### SUID, SGID, and Sticky Bit permissions  
@@ -54,8 +50,7 @@ To create a disk image, use the command: `sudo dd if=/dev/vda of=diskimage.raw b
 - **bs=** block size (1M is a common default)  
 - **status=progress** shows real-time progress
 
-To restore from a disk image, simply reverse the input and output of the previous command: `sudo dd if=diskimage.raw of=/dev/vda bs=1M status=progress`. This writes the image back to the disk!
+To restore from a disk image, simply reverse the input and output of the previous command: `sudo dd if=diskimage.raw of=/dev/vda bs=1M status=progress`. This writes the image back to the disk
 
-
-<!--- This section is in progress! 🚧 --->
+Done!
 
