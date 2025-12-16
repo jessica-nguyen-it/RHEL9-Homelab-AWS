@@ -1,4 +1,4 @@
-# Bonus Log: I Forgot to Format My EBS Volumes 🐧
+# Bonus Log: Learning multiple lessons 🐧
 
 Today I set out to practice disk backup and restoration using the `dd` command. Then, I remembered I had never formatted the volumes I attached to my EC2 instance. So, here’s a quick walkthrough of how I did that!
 
