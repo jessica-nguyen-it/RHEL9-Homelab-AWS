@@ -1,4 +1,4 @@
-# RHEL 9 Homelab on VMware Workstation and AWS EC2 🐧
+# RHEL 9 SysAdmin Homelab 🐧
 
 This homelab is where I test, break, fix, and learn everything I need for the RHCSA. I’m documenting my progress as a multi-part series, with each entry focused on a specific exam domain. I’ll be updating regularly as I work through new topics, break things (on purpose or not), and learn from the process. 
 
