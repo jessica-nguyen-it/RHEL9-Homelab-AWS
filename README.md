@@ -32,9 +32,10 @@ I initially focused my practice on an AWS EC2 instance, but over time I expanded
 - **Week 4** – Troubleshooting the Bootloader → [Read it](./lab-log/week4.md)
 - **Week 5** – Processes, Logs, and TuneD → [Read it](./lab-log/week5.md)
 - **Week 6** - Configuring Local Storage → [Read it](./lab-log/week6.md)
-- **Week 7** - Creating Filesystems → [Read it](./lab-log/week7.md)
-- **Week 8** – Identity & Access Management → [Read it](./lab-log/week8.md)
-- **Week 8** – SELinux & Firewall Tuning → [Read it](./lab-log/week9.md)
+- **Week 7** - File System Permissions and Disk Quotas → [Read it](./lab-log/week7.md)
+- **Week 8** - Creating Filesystems → [Read it](./lab-log/week8.md)
+- **Week 9** – Identity & Access Management → [Read it](./lab-log/week9.md)
+- **Week 10** – SELinux & Firewall Tuning → [Read it](./lab-log/week10.md)
 - **THE END**... just kidding, more logs on the way 😼
 
 
