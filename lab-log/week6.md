@@ -1,4 +1,4 @@
-# Week 6 -- Local storage and file system management
+# Week 6 - Configuring Local Storage (Partitions, RAID, LVM, SWAP, & Encryption)
 
 I'll admit, when this topic first came up during my summer internship, I was pretty intimidated... filesystems, partitions, and all the different acronyms hit me hard. But revisiting it now while preparing for the RHCSA, the concepts feel much more natural. 
 
@@ -60,9 +60,9 @@ So, yet again, here are my notes for the week:
    - Edit `/etc/fstab` and add an entry for the swap partition or file. For example:
 
    ```bash
-/dev/vdb3 none swap sw 0 0
-/swap     none swap sw 0 0
-```
+	/dev/vdb3 none swap sw 0 0
+	/swap     none swap sw 0 0
+	```
 
 
 
