@@ -1,4 +1,4 @@
-# Week 7 -- Advanced File System Permissions and Disk Quotas
+# Week 7 - Advanced File System Permissions and Disk Quotas
 
 This will be a lighter week as I head into finals season. In this lab log, we'll go over how to create, manage, and diagnose file permissions using ACLs and attributes. Then, we will set up user and group disk quotas for file systems!
 
