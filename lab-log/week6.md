@@ -171,7 +171,6 @@ sudo mdadm --zero-superblock /dev/vdc /dev/vdd /dev/vde
 #### 3. Creating a RAID 1 Array with a spare
 
 ```Bash
-sudo mdadm --zero-superblock /dev/vdc /dev/vdd /dev/vde
 sudo mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/vdc /dev/vdd --spare-devices=1 /dev/vde
 ```  
 
