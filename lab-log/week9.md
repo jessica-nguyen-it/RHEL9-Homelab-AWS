@@ -2,10 +2,7 @@
 
 Wouldn’t it be great if our machines could help manage themselves?  
 
-For example, imagine being able to schedule backups, automatically monitor service health, detect critical failures, flag unauthorized login attempts, and get alerts the moment something needs your attention.
-
-
-This week, I learned how to do exactly that! :^) 
+This week, I learned how to do exactly that :^) 
 
 ## Cron
 
