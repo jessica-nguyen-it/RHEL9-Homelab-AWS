@@ -34,8 +34,9 @@ I initially focused my practice on an AWS EC2 instance, but over time I expanded
 - **Week 6** - Configuring Local Storage → [Read it](./lab-log/week6.md)
 - **Week 7** - File System Permissions and Disk Quotas → [Read it](./lab-log/week7.md)
 - **Week 8** - Creating Filesystems → [Read it](./lab-log/week8.md)
-- **Week 9** – Identity & Access Management → [Read it](./lab-log/week9.md)
-- **Week 10** – SELinux & Firewall Tuning → [Read it](./lab-log/week10.md)
+- **Week 9** - Scheduling Tasks with Cron, Anacron, and At → [Read it](./lab-log/week9.md)
+- **Week 10** – Identity & Access Management → [Read it](./lab-log/week10.md)
+- **Week 11** – SELinux & Firewall Tuning → [Read it](./lab-log/week11.md)
 - **THE END**... just kidding, more logs on the way 😼
 
 
